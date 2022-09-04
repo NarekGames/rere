@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/Логотип Narek Games.png">
+	<link rel="shortcut icon" href="/img/Логотип Narek Games.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Narek Games</title>s
+</head>
+<body>
+    <div class="navigation">
+        <img src="/img/Логотип Narek Games.png" alt="logo" id="logo">
+        <button onclick={myFunction()} id="home">Главная</button>
+        <button onclick={ScrollToNews()} id="news">Новости</button>
+        <button onclick={ScrollToHelp()} id="donate">Пожертвование</button>
+        <button onclick={ScrollToHelp()} id="help">Помощь</button>
+        <button onclick={DropDown()} id="menu">☰</button>
+        <div id="dropdown" class="dropdown">
+            <button onclick={myFunction()} id="home1">Главная</button>
+            <button onclick={ScrollToNews()} id="news3">Новости</button>
+            <button onclick={ScrollToHelp()} id="donate3">Пожертвование</button>
+            <button onclick={ScrollToHelp()} id="help3">Помощь</button></div>
+    </div>
+    <div class="space" id="space"></div>
+    <div class="info" id="divinfo">
+        <p>Вышло новое обновление испытай игру.</p>
+        <p>Нажми кнопку снизу чтобы начать играть!</p>
+        <img src="/img/Arrow 1.png" alt="Arrow" id="arrow">
+        <a href="https://drive.google.com/file/d/1uJcjBUfg-j_3YMhA2gnCSIKS5nVxU95v/view?usp=sharing" download="" class="download-btn" id="download" target="_blank"><button id="startplay">Скачать Helicopter</button></a>
+        <a href="./Casual Puzzle Game_setup.exe" download class="download-btn" id="download"><button id="startplay">Скачать Puzzle Game</button></a>
+    </div>
+
+    <div class="game_photos"><img src="/img/Эллипс 1.png" alt="Game-Png"></div>
+    <div class="game_photos" id="scrolltonews"><img src="/img/Эллипс 1.png" alt="Game-Png"></div>
+    <div class="news">
+        <h3 id="news1">Новости</h3>
+        <div class="news_photos1"><img src="/img/Puzzle Logo.png" alt="photo"></div>
+        <div class="table">
+         <table>
+         <tr>
+             <td>Создатель</td>
+             <td>Narek Sargsyan</td>
+             <td>Для ПК</td>
+         </tr>
+         <tr>
+             <td>Вес</td>
+             <td>60mb</td>
+         </tr>
+         <tr>
+             <td>Дата Выпуска</td>
+             <td>04.09.2022</td>
+         </tr>
+        </table>
+        </div>
+        <div class="news_photos1"><img src="/img/Screenshot_20220829-141930_Google Helicopter V20.jpg" alt="photo"></div>
+       <div class="table">
+        <table>
+        <tr>
+            <td>Создатель</td>
+            <td>Narek Sargsyan</td>
+        </tr>
+        <tr>
+            <td>Вес</td>
+            <td>27mb</td>
+        </tr>
+        <tr>
+            <td>Дата Выпуска</td>
+            <td>01.09.2022</td>
+        </tr>
+       </table>
+       </div>
+    </div>
+    <div class="space"></div>
+    <div class="helpme"><p id="forhelpme">Для Пожертвование или для Помощи обратитесь ко мне в <a id="faceboook" href="https://www.facebook.com/profile.php?id=100060437647445" target="_blank">Facebook</a></p></div>
+    <div class="space"></div>
+    <footer>
+        <h4 id="website">My Other Website</h4>
+        <h4 id="social">My Social Page</h4>
+        <a href="https://narek121516.github.io/main.html" target="_blank" id="project">Vardenik Community Hall Page</a>
+        <a href="https://www.facebook.com/profile.php?id=100060437647445" target="_blank"><img src="/img/free-icon-facebook-733547 (1).png" alt="facebook" id="facebook"></a>
+    </footer>
+    <script src="/js/Index.js"></script>
+</body>
+</html>
